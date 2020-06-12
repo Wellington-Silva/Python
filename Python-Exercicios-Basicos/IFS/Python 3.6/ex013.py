@@ -1,0 +1,5 @@
+nome = input("Digite um nome:") 
+salario = float(input("Digite um salário:"))
+dependentes = int(input("Informe a quantidade de dependentes:")) 
+ir = (salario * 0.25) - (dependentes * 50)
+print("O Funcionário", nome, " que recebe", salario, "de salário possui o imposto de renda valendo", ir)

@@ -1,0 +1,13 @@
+c1 = int(input())
+c2 = int(input())
+c3 = int(input())
+nulos = int(input())
+soma = c1 + c2 + c3 + nulos 
+p_c1 = (c1/soma)*100
+p_c2 = (c2/soma)*100
+p_c3 = (c3/soma)*100
+p_nulos = (nulos/soma)*100
+print("Candidato A = %.0f"%p_c1, "%")
+print("Candidato B =%.0f"%p_c2, "%")
+print("Candidato C =%.0f"%p_c3, "%")
+print("Nulos = %.0f"%p_nulos, "%")

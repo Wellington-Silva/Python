@@ -1,0 +1,5 @@
+v1 = float(input("Digite um número Qualquer:"))
+v2 = float(input("Digite um número Qualquer:"))
+print("Variável 1 =", v1)
+print("Variável 2 =", v2)    
+print("A variável", v1, "agora é", v2, "e a variável", v2, "agora é", v1)
